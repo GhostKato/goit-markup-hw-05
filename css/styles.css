@@ -736,8 +736,8 @@ p {
 
 .policy-check:checked + label > .checkbox-icon-select {
   background-color: #404bbf;
-  fill: #f4f4fd;
   border: none;
+  fill: #f4f4fd;
 }
 
 .policy-check:focus + label > .checkbox-icon-select {
