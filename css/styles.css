@@ -734,15 +734,12 @@ p {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy-check:checked + label > .checkbox-icon-select {
+.policy-check:checked + .label-policy > span {
   background-color: #404bbf;
   fill: #f4f4fd;
-}
-
-.policy-check:checked + label > .checkbox-icon-select {
   border: none;
 }
 
-.policy-check:focus + label > .checkbox-icon-select {
+.policy-check:focus + .label-policy > span {
   border: 2px solid #404bbf;
 }
